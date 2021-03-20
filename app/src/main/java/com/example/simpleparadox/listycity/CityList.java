@@ -10,7 +10,7 @@ import java.util.List;
 public class CityList {
     private List<City> cities = new ArrayList<>();
 
-    private String name;
+    private String name = "NONE";
 
     /**
      * This adds a city to the list if the city does not exist
@@ -86,6 +86,6 @@ public class CityList {
     }
 
     public String getName() {
-//        return name;
+        return name;
     }
 }
