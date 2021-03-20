@@ -10,6 +10,8 @@ import java.util.List;
 public class CityList {
     private List<City> cities = new ArrayList<>();
 
+    private String name;
+
     /**
      * This adds a city to the list if the city does not exist
      * @param city
@@ -76,5 +78,12 @@ public class CityList {
      */
     public int countCities() {
         return cities.size();
+    }
+
+
+    public void setName(String name) {
+    }
+
+    public String getName() {
     }
 }
